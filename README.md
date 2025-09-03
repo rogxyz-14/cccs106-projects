@@ -6,7 +6,7 @@ Academic Year 2025-2026
 - **Name:** Roger A. Regalado Jr.
 - **Student ID:** 231005317
 - **Program:** BSCS
-- **Section:** B
+- **Section:** B    
 
 ## Repository Structure
 
