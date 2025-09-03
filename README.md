@@ -3,10 +3,10 @@ Application Development and Emerging Technologies
 Academic Year 2025-2026
 
 ## Student Information
-- **Name:** [Your Full Name]
-- **Student ID:** [Your Student ID]
-- **Program:** [Your Academic Program]
-- **Section:** [Your Section]
+- **Name:** Roger A. Regalado Jr.
+- **Student ID:** 231005317
+- **Program:** BSCS
+- **Section:** B
 
 ## Repository Structure
 
