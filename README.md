@@ -48,6 +48,3 @@ cd week2_labs
 # Run applications
 python hello_flet.py
 python personal_info_gui.py
-
-
-mamamo hannah faye
