@@ -8,7 +8,7 @@
 ## Git Configuration
 
 ### Repository Setup
-- **GitHub Repository:** [Your repository URL]
+- **GitHub Repository:** https://github.com/rogxyz-14/cccs106-projects
 - **Local Repository:** ✅ Initialized and connected
 - **Commit History:** [Number] commits with descriptive messages
 
