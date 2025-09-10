@@ -58,8 +58,20 @@ This lab gave me an opportunity to learn the basics of version control using Git
 ## Screenshots
 
 ### Git Repository
-- [ ] GitHub repository with commit history
-- [ ] Local git log showing commits
+- GitHub repository with commit history
+![alt text](lab2_screenshots/commit_history_1.png)
+![alt text](lab2_screenshots/commit_history_2.png)
+
+- Local git log showing commits
+![alt text](lab2_screenshots/git_log_commit_1.png)
+![alt text](lab2_screenshots/git_log_commit_2.png)
+![alt text](lab2_screenshots/git_log_commit_3.png)
+![alt text](lab2_screenshots/git_log_commit_4.png)
+![alt text](lab2_screenshots/git_log_commit_5.png)
+![alt text](lab2_screenshots/git_log_commit_6.png)
+![alt text](lab2_screenshots/git_log_commit_7.png)
+![alt text](lab2_screenshots/git_log_commit_8.png)
+
 
 ### GUI Applications
 - hello_flet.py running with all features
