@@ -62,8 +62,14 @@ This lab gave me an opportunity to learn the basics of version control using Git
 - [ ] Local git log showing commits
 
 ### GUI Applications
-- [ ] hello_flet.py running with all features
-- [ ] personal_info_gui.py with filled form and generated profile
+- hello_flet.py running with all features
+![alt text](lab2_screenshots/hello_flet.png)
+
+- personal_info_gui.py with filled form and generated profile
+![alt text](lab2_screenshots/personal_info_gui_1.png)
+![alt text](lab2_screenshots/personal_info_gui_2.png)
+![alt text](lab2_screenshots/personal_info_gui_3.png)
+
 
 ## Future Enhancements
 
