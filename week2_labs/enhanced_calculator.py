@@ -1,3 +1,8 @@
+# enhanced_calculator.py
+# CCCS 106 - Week 2 Lab Exercise
+# Enhanced Calculator with GUI
+# Student: Roger A. Regalado Jr.
+
 import flet as ft
 
 

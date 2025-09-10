@@ -1,7 +1,7 @@
 # hello_flet.py
 # CCCS 106 - Week 2 Lab Exercise
 # First Flet GUI Application
-# Student: [Your Name]
+# Student: Roger A. Regalado Jr.
 
 import flet as ft
 from datetime import datetime

@@ -1,6 +1,7 @@
 # personal_info_gui.py
 # CCCS 106 - Week 2 Lab Exercise
 # Enhanced Personal Information with GUI
+# Student: Roger A. Regalado Jr.
 
 import flet as ft
 from datetime import datetime
