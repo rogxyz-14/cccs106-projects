@@ -58,13 +58,14 @@ def main(page: ft.Page):
         hint_style=ft.TextStyle(color=ft.Colors.BLACK),
         label_style=ft.TextStyle(color=ft.Colors.BLACK),
         helper_style=ft.TextStyle(color=ft.Colors.BLACK),
+        bgcolor=ft.Colors.BLUE
     
     )
     username_wrapper = ft.Container(
         content=username_field,
         padding=ft.padding.symmetric(vertical=6, horizontal=8),
         border_radius=8,
-        bgcolor=ft.Colors.BLUE,
+        bgcolor=ft.Colors.AMBER,
     )
 
     password_field = ft.TextField(
@@ -79,12 +80,13 @@ def main(page: ft.Page):
         hint_style=ft.TextStyle(color=ft.Colors.BLACK),
         label_style=ft.TextStyle(color=ft.Colors.BLACK),
         helper_style=ft.TextStyle(color=ft.Colors.BLACK),
+        bgcolor=ft.Colors.BLUE
     )
     password_wrapper = ft.Container(
         content=password_field,
         padding=ft.padding.symmetric(vertical=6, horizontal=8),
         border_radius=8,
-        bgcolor=ft.Colors.WHITE,
+        bgcolor=ft.Colors.AMBER,
     )
 
     status_text = ft.Text("", size=12, color=ft.Colors.RED)
