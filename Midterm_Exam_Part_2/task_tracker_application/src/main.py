@@ -10,7 +10,6 @@ def main(page: ft.Page):
     tasks = []
     task_list = ft.Column(spacing=5, scroll=ft.ScrollMode.AUTO)
 
-    # 🧮 Update progress bar and text
     def update_progress():
         total = len(tasks)
         completed = sum(1 for t in tasks if t["checkbox"].value)
@@ -22,7 +21,6 @@ def main(page: ft.Page):
             progress_bar.value = completed / total
         page.update()
 
-    # ✅ Toggle task completion
     def toggle_task(e):
         checkbox = e.control
         task_container = checkbox.data
@@ -35,7 +33,6 @@ def main(page: ft.Page):
         update_progress()
         page.update()
 
-    # 🧹 Delete Task with Confirmation
     def confirm_delete(e):
         task_row = e.control.data
         dlg = ft.AlertDialog(
@@ -59,12 +56,10 @@ def main(page: ft.Page):
         update_progress()
         page.update()
 
-    # ➕ Add task
     def add_task(e):
         if task_input.value.strip() == "":
             return
 
-        # Container for task text
         task_text = ft.Text(task_input.value)
         task_container = ft.Container(
             content=task_text,
@@ -73,43 +68,37 @@ def main(page: ft.Page):
             border_radius=4
         )
 
-        # Checkbox
         task_checkbox = ft.Checkbox(
             value=False,
             label="",
             on_change=toggle_task,
         )
-        task_checkbox.data = task_container  # link checkbox to container
+        task_checkbox.data = task_container  
 
-        # Delete button
         delete_btn = ft.IconButton(
             icon=ft.Icons.DELETE_OUTLINE,
             icon_color=ft.Colors.RED,
             bgcolor=ft.Colors.RED_100,
             tooltip="Delete Task",
-            data=None,  # will be updated after row creation
+            data=None,  
             on_click=confirm_delete
 
         )
 
-        # Left side group
         left_group = ft.Row(
             controls=[task_checkbox, task_container],
             spacing=10,
             vertical_alignment=ft.CrossAxisAlignment.CENTER
         )
 
-        # Task row layout
         task_row = ft.Row(
             controls=[left_group, delete_btn],
             alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
             vertical_alignment=ft.CrossAxisAlignment.CENTER
         )
 
-        # link delete button to the row itself
         delete_btn.data = task_row
 
-        # Add to list and UI
         tasks.append({"row": task_row, "checkbox": task_checkbox})
         task_list.controls.append(task_row)
 
@@ -117,7 +106,6 @@ def main(page: ft.Page):
         update_progress()
         page.update()
 
-    # 📝 Input Section
     task_input = ft.TextField(
         hint_text="What needs to be done?",
         bgcolor=ft.Colors.WHITE,
@@ -135,7 +123,6 @@ def main(page: ft.Page):
         alignment=ft.MainAxisAlignment.START
     )
 
-    # 📊 Progress Tracking
     progress_text = ft.Text(
         value="No tasks yet",
         color=ft.Colors.GREY
@@ -151,7 +138,6 @@ def main(page: ft.Page):
         spacing=6
     )
 
-    # 🧩 Add everything to page
     page.add(
         input_row,
         progress_section,
