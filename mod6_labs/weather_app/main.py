@@ -6,6 +6,7 @@ from weather_service import WeatherService
 from config import Config
 import json
 from pathlib import Path
+from weather_service import WeatherServiceError
 
 
 class WeatherApp:
@@ -36,6 +37,7 @@ class WeatherApp:
 
         # Window properties are accessed via page.window object in Flet 0.28.3
         self.page.window.width = Config.APP_WIDTH
+        import re  # for input validation
         self.page.window.height = Config.APP_HEIGHT
         self.page.window.resizable = False
         
@@ -197,7 +199,7 @@ class WeatherApp:
             # Display weather
             await self.display_weather(weather_data)
         
-        except WeatherService as e:
+        except WeatherServiceError as e:
             # Show user-friendly error message
             self.show_error(str(e))
 
