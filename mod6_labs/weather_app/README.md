@@ -67,7 +67,7 @@ Voice Input for City Search
 ### Setup Instructions
 ```bash
 # Clone the repository
-git clone https://github.com/<username>/cccs106-projects.git
+git clone https://github.com/rogxyz-14/cccs106-projects.git
 cd cccs106-projects/mod6_labs
 
 # Create virtual environment
