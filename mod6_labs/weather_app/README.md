@@ -46,16 +46,16 @@ The Weather Application provides real-time weather information for any city the 
    - The challenge was handling inaccurate or unclear speech recognition. To solve this, I implemented basic error handling, including prompts like “Please repeat” and a fallback to manual input if recognition fails.
 
 ## Screenshots
-Search History
+**Search History**
 ![alt text](image1.png)
 
-Weather Condition Icons and Colors
+**Weather Condition Icons and Colors**
 ![alt text](image2.png)
 
-Weather Alerts and Warnings
+**Weather Alerts and Warnings**
 ![alt text](image3.png)
 
-Voice Input for City Search
+**Voice Input for City Search**
 ![alt text](image4.png)
 
 ## Installation
