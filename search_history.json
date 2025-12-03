@@ -1,5 +1,13 @@
 [
   {
+    "city": "Iceland",
+    "timestamp": "2025-12-03T22:02:03.876515"
+  },
+  {
+    "city": "Tokyo",
+    "timestamp": "2025-12-03T22:01:33.822447"
+  },
+  {
     "city": "Manila",
     "timestamp": "2025-12-03T19:33:51.110304"
   },
@@ -8,16 +16,8 @@
     "timestamp": "2025-12-03T19:31:40.793897"
   },
   {
-    "city": "Iceland",
-    "timestamp": "2025-12-03T19:30:03.023429"
-  },
-  {
     "city": "Greenland",
     "timestamp": "2025-12-03T16:55:37.171972"
-  },
-  {
-    "city": "Tokyo",
-    "timestamp": "2025-12-03T16:52:34.151648"
   },
   {
     "city": "London",
