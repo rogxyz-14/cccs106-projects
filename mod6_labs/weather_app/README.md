@@ -7,7 +7,7 @@
 - **Section**: BSCS 3B
 
 ## Project Overview
-[Brief description of your weather app and what it does]
+The Weather Application provides real-time weather information for any city the user searches for. It displays key details such as temperature, humidity, wind speed, and weather conditions using a clean and modern Material Design interface. The app also includes enhanced features like search history, temperature unit conversion, visual condition indicators, weather alerts, and optional voice input. Overall, it aims to deliver an intuitive and accessible way for users to check and understand current weather conditions quickly.
 
 ## Features Implemented
 
